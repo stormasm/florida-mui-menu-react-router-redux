@@ -15,11 +15,7 @@ class KeyContainer extends Component {
     const { router, push, selectKey } = this.props;
 
     const pathname = router.location.pathname;
-    console.log(pathname);
-
     const parts = pathname.split('/');
-    console.log(parts);
-
     const mypath = '/' + nextDatadir + '/' + parts[2];
     push(mypath);
     selectKey(nextDatadir);
