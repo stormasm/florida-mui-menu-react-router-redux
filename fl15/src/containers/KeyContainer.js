@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { selectKey } from "../actions";
 import Picker from "../components/Picker";
-import { push } from 'react-router-redux'
+import { push } from './../rrr/actions';
 
 class KeyContainer extends Component {
   constructor(props) {

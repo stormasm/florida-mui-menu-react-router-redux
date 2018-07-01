@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import configureStore from "../configureStore";
 //import Router from "./Router";
 import createHistory from 'history/createBrowserHistory'
-import { ConnectedRouter } from 'react-router-redux'
+import ConnectedRouter from './../rrr/ConnectedRouter'
 
 import { withRouter } from "react-router-dom";
 
