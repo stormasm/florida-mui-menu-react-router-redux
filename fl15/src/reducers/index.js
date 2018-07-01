@@ -6,7 +6,7 @@ import { routerReducer } from 'react-router-redux'
 const rootReducer = combineReducers({
   keys,
   selectedKey,
-  routerReducer
+  router: routerReducer
 });
 
 export default rootReducer;
