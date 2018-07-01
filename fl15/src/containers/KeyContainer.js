@@ -12,8 +12,15 @@ class KeyContainer extends Component {
   }
 
   handleChange(nextDatadir) {
-    const { push, selectKey } = this.props;
-    const mypath = '/' + nextDatadir + '/sec2';
+    const { router, push, selectKey } = this.props;
+
+    const pathname = router.location.pathname;
+    console.log(pathname);
+
+    const parts = pathname.split('/');
+    console.log(parts);
+
+    const mypath = '/' + nextDatadir + '/' + parts[2];
     push(mypath);
     selectKey(nextDatadir);
   }
@@ -38,8 +45,9 @@ KeyContainer.propTypes = {
 };
 
 function mapStateToProps(state) {
-  const { keys, selectedKey } = state;
+  const { router, keys, selectedKey } = state;
   return {
+    router,
     keys,
     selectedKey
   };
