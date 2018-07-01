@@ -13,9 +13,9 @@ class KeyContainer extends Component {
 
   handleChange(nextDatadir) {
     const { push, selectKey } = this.props;
-    push('/ch2/sec2');
+    const mypath = '/' + nextDatadir + '/sec2';
+    push(mypath);
     selectKey(nextDatadir);
-    //push(nextDatadir);
   }
 
   render() {
