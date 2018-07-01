@@ -9,6 +9,6 @@ const loggerMiddleware = createLogger();
 export default function configureStore(history) {
   return createStore(
     rootReducer,
-    applyMiddleware(routerMiddleware(history), thunkMiddleware, loggerMiddleware)
+    applyMiddleware(thunkMiddleware, loggerMiddleware, routerMiddleware(history))
   );
 }
