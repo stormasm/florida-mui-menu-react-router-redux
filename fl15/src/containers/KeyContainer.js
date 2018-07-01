@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { selectKey } from "../actions";
 import Picker from "../components/Picker";
+import { push } from 'react-router-redux'
 
 class KeyContainer extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class KeyContainer extends Component {
   handleChange(nextDatadir) {
     const { selectKey } = this.props;
     selectKey(nextDatadir);
+    push(nextDatadir);
   }
 
   render() {
@@ -42,4 +44,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps, { selectKey })(KeyContainer);
+export default connect(mapStateToProps, { push, selectKey })(KeyContainer);
