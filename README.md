@@ -15,3 +15,5 @@ To compare this code to the latest version of the react-router-redux
 [run this script](https://github.com/stormasm/florida-mui-menu-react-router-redux/blob/master/fl15/compare)
 
 by swapping out **tmp12** with the location of the react-router repo.
+
+react-router-redux [npm version](https://www.npmjs.com/package/react-router-redux/v/5.0.0-alpha.9)
