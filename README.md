@@ -1,4 +1,6 @@
 
+[norr](https://github.com/stormasm/florida-mui-menu-react-router-redux/tree/master/norr) means or stands for menu code with **no** react-router.
+
 [connectd-react-router](https://github.com/supasate/connected-react-router)
 does not work but my attempt is
 [located here](https://github.com/stormtracks/florida-mui-menu-connected)
