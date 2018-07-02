@@ -66,8 +66,6 @@ class MenuAppBar extends React.Component {
     const { classes, selectedKey } = this.props;
     const { anchorEl1, anchorEl2 } = this.state;
 
-    console.log("selectedKey = ", selectedKey);
-
     return (
       <div className={classes.root}>
         <AppBar position="static">
@@ -216,6 +214,3 @@ const part = compose(
 )(MenuAppBar);
 
 export default withRoot(part);
-
-//export default connect(mapStateToProps)(MenuAppBar);
-//export default withRoot(withStyles(styles)(MenuAppBar));

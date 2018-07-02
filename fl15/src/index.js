@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//import Index from './Router';
-import Index from './containers/root';
+import Root from './containers/Root';
 
-ReactDOM.render(<Index />, document.querySelector('#root'));
+ReactDOM.render(<Root />, document.querySelector('#root'));

@@ -11,14 +11,15 @@ class KeyContainer extends Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange(nextDatadir) {
+  handleChange(chapter) {
     const { router, push, selectKey } = this.props;
 
+    selectKey(chapter);
+
     const pathname = router.location.pathname;
-    const parts = pathname.split('/');
-    const mypath = '/' + nextDatadir + '/' + parts[2];
-    push(mypath);
-    selectKey(nextDatadir);
+    const section = pathname.split('/');
+    const urlpath = '/' + chapter + '/' + section[2];
+    push(urlpath);
   }
 
   render() {
@@ -36,6 +37,7 @@ class KeyContainer extends Component {
 }
 
 KeyContainer.propTypes = {
+  router: PropTypes.object.isRequired,
   keys: PropTypes.array.isRequired,
   selectedKey: PropTypes.string.isRequired
 };
