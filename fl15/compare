@@ -1,0 +1,11 @@
+diff src/rrr/ConnectedRouter.js /tmp12/react-router/packages/react-router-redux/modules/ConnectedRouter.js
+diff src/rrr/actions.js /tmp12/react-router/packages/react-router-redux/modules/actions.js
+diff src/rrr/middleware.js /tmp12/react-router/packages/react-router-redux/modules/middleware.js
+diff src/rrr/reducer.js /tmp12/react-router/packages/react-router-redux/modules/reducer.js
+diff src/rrr/selectors.js /tmp12/react-router/packages/react-router-redux/modules/selectors.js
+
+sum src/rrr/ConnectedRouter.js /tmp12/react-router/packages/react-router-redux/modules/ConnectedRouter.js
+sum src/rrr/actions.js /tmp12/react-router/packages/react-router-redux/modules/actions.js
+sum src/rrr/middleware.js /tmp12/react-router/packages/react-router-redux/modules/middleware.js
+sum src/rrr/reducer.js /tmp12/react-router/packages/react-router-redux/modules/reducer.js
+sum src/rrr/selectors.js /tmp12/react-router/packages/react-router-redux/modules/selectors.js
