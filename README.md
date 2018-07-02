@@ -12,4 +12,6 @@ So I broke out the react-router-redux code into my own
 [directory](https://github.com/stormasm/florida-mui-menu-react-router-redux/tree/master/fl15/src/rrr).
 
 To compare this code to the latest version of the react-router-redux
-[run this script](https://github.com/stormasm/florida-mui-menu-react-router-redux/blob/master/fl15/compare) by swapping out **tmp12** with the location of the react-router repo.
+[run this script](https://github.com/stormasm/florida-mui-menu-react-router-redux/blob/master/fl15/compare)
+
+by swapping out **tmp12** with the location of the react-router repo.
