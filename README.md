@@ -24,3 +24,6 @@ To compare this code to the latest version of the react-router-redux
 by swapping out **tmp12** with the location of the react-router repo.
 
 react-router-redux [npm version](https://www.npmjs.com/package/react-router-redux/v/5.0.0-alpha.9)
+
+[react-router](https://github.com/stormdock/react-router) fork is located
+here for archival reasons when react-router-redux goes away.
