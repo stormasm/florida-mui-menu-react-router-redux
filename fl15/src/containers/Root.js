@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
 
-import createHistory from 'history/createBrowserHistory'
+import createHistory from "history/createBrowserHistory";
 import { withRouter } from "react-router-dom";
 
-import ConnectedRouter from './../rrr/ConnectedRouter'
+import ConnectedRouter from "./../rrr/ConnectedRouter";
 import configureStore from "../configureStore";
 import AppChapter from "./AppChapter";
 

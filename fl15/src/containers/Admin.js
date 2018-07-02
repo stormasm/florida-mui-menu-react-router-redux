@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import KeyboxContainer from './KeyboxContainer'
+import React, { Component } from "react";
+import KeyboxContainer from "./KeyboxContainer";
 
 export default class Admin extends Component {
   render() {
@@ -7,6 +7,6 @@ export default class Admin extends Component {
       <div>
         <KeyboxContainer />
       </div>
-    )
+    );
   }
 }

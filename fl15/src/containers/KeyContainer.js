@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { selectKey } from "../actions";
 import Picker from "../components/Picker";
-import { push } from './../rrr/actions';
+import { push } from "./../rrr/actions";
 
 class KeyContainer extends Component {
   constructor(props) {
@@ -17,8 +17,8 @@ class KeyContainer extends Component {
     selectKey(chapter);
 
     const pathname = router.location.pathname;
-    const section = pathname.split('/');
-    const urlpath = '/' + chapter + '/' + section[2];
+    const section = pathname.split("/");
+    const urlpath = "/" + chapter + "/" + section[2];
     push(urlpath);
   }
 
