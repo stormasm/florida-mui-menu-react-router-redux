@@ -13,6 +13,11 @@ Which is explained [in this link](https://github.com/ReactTraining/react-router/
 So I broke out the react-router-redux code into my own
 [directory](https://github.com/stormasm/florida-mui-menu-react-router-redux/tree/master/fl15/src/rrr).
 
+The [released version](https://www.npmjs.com/package/react-router-redux/v/5.0.0-alpha.9) does not contain the latest code in the repo. So you have two solutions
+
+* (1) Carry along the code with you in any repo that uses it.
+* (2) Publish out your own version to NPM and then start using it.
+
 To compare this code to the latest version of the react-router-redux
 [run this script](https://github.com/stormasm/florida-mui-menu-react-router-redux/blob/master/fl15/compare)
 
